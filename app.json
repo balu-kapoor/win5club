@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "win5club",
+    "slug": "saamaandekho-app",
+    "scheme": "win5club",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 7,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.balukapoor.saamaandekhoapp"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9bec40b-feb4-4b83-82a9-49fc19254e45"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
